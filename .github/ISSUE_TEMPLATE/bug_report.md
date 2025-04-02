@@ -29,3 +29,5 @@ Si es posible, añade capturas de pantalla para ayudar a explicar el problema.
 
 **Información adicional**
 Añade cualquier otro contexto sobre el problema aquí.
+
+cambios dentro de developer 01
