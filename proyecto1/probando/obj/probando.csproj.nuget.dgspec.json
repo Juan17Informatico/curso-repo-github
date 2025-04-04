@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/curso-repo-github/proyecto1/probando/probando.csproj": {}
+    "C:\\Users\\verap\\desarrollo_web\\curso-repo-github\\proyecto1\\probando\\probando.csproj": {}
   },
   "projects": {
-    "/workspaces/curso-repo-github/proyecto1/probando/probando.csproj": {
+    "C:\\Users\\verap\\desarrollo_web\\curso-repo-github\\proyecto1\\probando\\probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/curso-repo-github/proyecto1/probando/probando.csproj",
+        "projectUniqueName": "C:\\Users\\verap\\desarrollo_web\\curso-repo-github\\proyecto1\\probando\\probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/curso-repo-github/proyecto1/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/curso-repo-github/proyecto1/probando/obj/",
+        "projectPath": "C:\\Users\\verap\\desarrollo_web\\curso-repo-github\\proyecto1\\probando\\probando.csproj",
+        "packagesPath": "C:\\Users\\verap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\verap\\desarrollo_web\\curso-repo-github\\proyecto1\\probando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\verap\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,16 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
